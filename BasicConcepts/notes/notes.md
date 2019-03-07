@@ -45,5 +45,5 @@
     4.name 不能包含有空格。
  参数字符串：可选参数，设置窗口参数，各参数用逗号隔开。
 ```
-
-<img src="./windowOpenParam.jpg" width="200"/>
+参数表:  
+<img src="./windowOpenParam.jpg" width="500"/>
