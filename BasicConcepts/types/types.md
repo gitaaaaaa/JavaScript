@@ -1,4 +1,4 @@
-6种数据类型:  
+### 6种数据类型:  
 基本数据类型:
 <a href="#number">Number</a> 
 <a href="#string">String</a> 
@@ -18,26 +18,35 @@ typeof 操作符 -- 来检测给定变量的数据类型
 
 ### <a name="number">Number</a>
 ```
-typeof(1); // number
+
 ```
 
 ### <a name="string">String</a>
 ```
-typeof("字符串"); // string
+
 ```
 ### <a name="boolean">Boolean</a>
 ```
-typeof(true); // boolean
+
 ```
 ### <a name="undefined">Undefined</a>
 ```
 Undefined是为了正式区分空对象指针与未经初始化的变量
 ```
-### <a name="null">Null</a>
+### <a name="null">Null-空对象指针</a>
+null为空指针对象,不能像普通对象一样直接添加属性  
+如果定义的变量准备在将来用于保存对象，那么最好将该变量初始化为 null 而不是其他值
 ```
- null为空指针对象,不能像普通对象一样直接添加属性
+ typeof null; // object
+ 
+ if (car != null){ 
+  // 对 car 对象执行某些操作
+ } 
+ 
+ var isNull = function (obj) {
+  	return obj === null;
+  };
 ```
-<a href="#checkNullObj"> {} 与 null 的区别</a>  
 
 ### <a name="object">Object</a>
 
