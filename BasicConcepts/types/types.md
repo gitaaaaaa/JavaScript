@@ -48,7 +48,18 @@ null为空指针对象,不能像普通对象一样直接添加属性
   };
 ```
 
-### <a name="object">Object</a>
+### <a name="object">Object类型</a>
+```javascript
+// 创建 Object 的实例
+var o = new Object();
+/** 
+* 说明: 1. Object 类型是所有它的实例的基础
+*       2. Object 类型所具有的任何属性和方法也同样存在于更具体的对象中
+*/ 
+```
+Object 具有哪儿些属性和方法?
+
+constructor:构造函数（constructor）就是 Object()
 
 
 
